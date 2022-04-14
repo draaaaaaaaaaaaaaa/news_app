@@ -25,5 +25,8 @@ factory Article.fromJson(Map<String, dynamic> json ) => Article(
    urlToImage: json["urlToImage"] ??
             "https://www.btklsby.go.id/images/placeholder/basic.png",
 
+          
+
 );
 }
+//factory berfungsi untuk membuat objek dari model yang telah dibuat dan membuat objek dari model yang telah dibuat   
